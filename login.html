@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Login</title>
+    <link rel="stylesheet" href="login.css">
+</head>
+<body>
+    <header>
+        <div class="header-container">
+            <div class="itemscenter">
+                <div class="f-items">
+                    <a href="./index.html"><img src="./logos/logo.png" alt=""></a>
+                </div>
+            </div>
+        </div>
+    </header>
+    <div class="container">
+        <div class="login-box">
+            <h2>Login</h2>
+            <form id="loginForm">
+                <div class="input-group">
+                    <label for="username">Username:</label>
+                    <input type="text" id="username" required>
+                </div>
+                <div class="input-group">
+                    <label for="password">Password:</label>
+                    <input type="password" id="password" required>
+                </div>
+                <div class="checkbox-group">
+                    <input type="checkbox" id="remember">
+                    <label for="remember">Remember Me</label>
+                </div>
+                <button type="submit">Login</button>
+            </form>
+            <p>Don't have an account? <a href="signup.html">Sign Up</a></p>
+        </div>
+    </div>
+
+    <script>
+        document.getElementById('loginForm').addEventListener('submit', async (e) => {
+            e.preventDefault();
+            const username = document.getElementById('username').value;
+            const password = document.getElementById('password').value;
+
+            try {
+                const res = await fetch('/login', {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify({ username, password })
+                });
+                const message = await res.text();
+
+                if (res.ok) {
+                    alert(message);
+                    window.location.href = 'index.html';
+                } else {
+                    alert('Login failed: ' + message);
+                }
+            } catch (err) {
+                alert('Error: ' + err.message);
+            }
+        });
+    </script>
+</body>
+</html>

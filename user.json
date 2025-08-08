@@ -1,0 +1,29 @@
+[
+  {
+    "manufacturer": "Lamborghini",
+    "model": "",
+    "year": "2012",
+    "price": "10,000",
+    "fuel_type": "Gasoline",
+    "location": "Tbilisi",
+    "image": "/uploads/1750034105145.jpg"
+  },
+  {
+    "manufacturer": "Ferrari",
+    "model": "LaFerrari",
+    "year": "2025",
+    "price": "1,4M",
+    "fuel_type": "Gasoline",
+    "location": "Zestafoni",
+    "image": "/uploads/1750053814563.jpeg"
+  },
+  {
+    "manufacturer": "toyota",
+    "model": "911",
+    "year": "2004",
+    "price": "12233",
+    "fuel_type": "Electric",
+    "location": "tbilisi",
+    "image": "/uploads/1754665820902.png"
+  }
+]

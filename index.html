@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Combcars</title>
+    <link rel="stylesheet" href="./res.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"/>
+</head>
+<body>
+    <header>
+        <div class="header-container">
+            <div class="itemscenter">
+                <div class="f-items">
+                    <a href="./index.html"><img src="./logos/logo.png" alt=""></a>
+                    <div class="idinput">
+                        <input type="search" id="main-search" value="" name="q" placeholder="ID,Phone,Search Term..." />
+                        <span><i class="fa-solid fa-magnifying-glass" style="width: 20px; height: 20px;"></i></span>
+                    </div>
+                </div>
+                <div class="l-items">
+                    <button class="postbtn" id="add-car"><span><i class="fa-solid fa-plus" style="border-radius: 50%;padding: 4px;background-color: rgb(253,65,0,1);color: white;"></i>   Add Post</span></button>
+                    <button class="languagebtn" id="choose-language">
+                        <p><i class="fa-solid fa-globe"></i> English <i class="fa-solid fa-chevron-down downarrow"></i></p> 
+                        <div class="chooselanguage">
+                           <div class="options" style="display: flex;justify-content: flex-start;">
+                               <label for="English" id="eng"><input type="radio" id="English" name="language" checked />English</label>
+                           </div>
+                           <div class="options" style="display: flex; justify-content: flex-start;">
+                               <label for="ქართული" id="geo"><input type="radio" id="ქართული" name="language">ქართული</label>
+                           </div>
+                           <div class="options" style="display: flex; justify-content: flex-start;">
+                               <label for="French" id="fren"><input type="radio" id="French" name="language">French</label>
+                           </div>
+                        </div>
+                    </button>
+                    <button class="loginbtn">
+                        <a href="./login.html" style="color: black;text-decoration: none;"><p><i class="fa-solid fa-user"></i>Login</p></a>
+                    </button>
+                    <button class="registerbtn">
+                        <a href="signup.html" style="text-decoration: none;color: black;"><p>Register</p></a>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </header>
+    <nav>
+        <div class="bg-nav">
+            <div class="nav-container">
+                <div class="navitemscenter">
+                    <ul class="navbar">
+                        <li><a href="./index.html">Home</a></li>
+                        <li><a href="./list.html">Cars</a></li>
+                        <li><a href="">VIN Check</a></li>
+                        <li><a href="">Dealers</a></li>
+                        <li><a href="">Auctions</a></li>
+                        <li><a href="">Auto Parts</a></li>
+                        <li><a href="">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <div class="main">
+        <div class="main-container">
+            <div class="home-filter">
+                <div class="wrapper">
+                  <div class="logos">
+                      <div id="car">
+                          <img src="./logos/car.png">
+                          <p>Cars</p>
+                      </div>
+                      <div id="moto">
+                          <img src="./logos/motorcycle-of-big-size-black-silhouette.png">
+                          <p>Motorcycles</p>
+                      </div>
+                  </div>
+                  <div id="moto-message">Coming Soon...</div>
+                  <div class="selection">
+                      <div class="box">
+                          <div class="select" id="select-manu">
+                              <p>Manufacturer</p>
+                              <div class="arrow"><img src="./logos/down-arrow.png"></div>
+                              <div class="dropdown-content">
+                                  <div class="options">
+                                      <label for="toyota"><input type="radio" id="toyota" name="manufacturer" value="toyota"> Toyota</label>
+                                       
+                                  </div>
+                                  <div class="options">
+                                      <label for="bmw"><input type="radio" id="bmw" name="manufacturer" value="bmw"> BMW</label>
+                                      
+                                  </div>
+                                  <div class="options">
+                                      <label for="ford"> <input type="radio" id="ford" name="manufacturer" value="ford"> Ford</label>
+                                      
+                                  </div>
+                                  <div class="options">
+                                      <label for="mercedes"><input type="radio" id="mercedes" name="manufacturer" value="mercedes">Mercedes</label>
+                                      
+                                  </div>
+                                  <div class="options">
+                                      <label for="audi"><input type="radio" id="audi" name="manufacturer" value="audi"> Audi</label>
+                                      
+                                  </div>
+                              </div>
+                          </div>
+                      </div>
+                       <div class="box">
+                          <div class="select" id="select-loca">
+                              <p>Location</p>
+                              <div class="arrow"><img src="./logos/down-arrow.png"></div>
+                               <div class="dropdown-content">
+                                  <div class="options">
+                                      <label for="tbilisi"><input type="radio" name="location" id="tbilisi" value="tbilisi">Tbilisi</label>
+                                      
+                                  </div>
+                                  <div class="options">
+                                      <label for="batumi"><input type="radio" name="location" id="batumi" value="batumi">Batumi</label>
+                                      
+                                  </div>
+                                  <div class="options">
+                                      <label for="kutaisi"><input type="radio" name="location" id="kutaisi" value="kutaisi">Kutaisi</label>
+                                      
+                                  </div>
+                                  <div class="options">
+                                      <label for="rustavi"><input type="radio" name="location" id="rustavi" value="rustavi">Rustavi</label>
+                                      
+                                  </div>
+                              </div>
+                          </div>
+                      </div>
+                       <div class="box">
+                          <div class="select" id="select-year">
+                               <p>Year</p>
+                               <div class="arrow"><img src="./logos/down-arrow.png"></div>
+                                <div class="dropdown-content">
+                                  <div class="year-inputs">
+                                      <input type="number" placeholder="From" min="2000" max="2025" />
+                                      <input type="number" placeholder="To" min="2000" max="2025" />
+                                  </div>
+                                  <div class="options">
+                                      <label for="2014"><input type="radio" name="year" id="2014" value="2014">2014</label>
+                                      
+                                  </div>
+                                  <div class="options">
+                                      <label for="2015"><input type="radio" name="year" id="2015" value="2015">2015</label>
+                                      
+                                  </div>
+                                  <div class="options">
+                                      <label for="2016"><input type="radio" name="year" id="2016" value="2016">2016</label>
+                                      
+                                  </div>
+                                  <div class="options">
+                                      <label for="2017"><input type="radio" name="year" id="2017" value="2017">2017</label>
+                                      
+                                  </div>
+                              </div>
+                          </div>
+                      </div>
+                       <div class="box">
+                          <div class="select" id="select-price">
+                              <p>Price</p>
+                              <div class="arrow"><img src="./logos/down-arrow.png"></div>
+                              <div class="dropdown-content">
+                                  <input type="number" placeholder="From ($)" />
+                                  <input type="number" placeholder="To ($)" />
+                              </div>
+                          </div>
+                      </div>
+                       <div class="box">
+                          <div class="select" id="select-fuel">
+                              <p>Fuel</p>
+                              <div class="arrow"><img src="./logos/down-arrow.png"></div>
+                              <div class="dropdown-content">
+                                  <div class="options">
+                                      <label for="petrol"><input type="radio" name="fuel" id="petrol" value="gasoline">Gasoline</label>
+                                      
+                                  </div>
+                                  <div class="options">
+                                      <label for="diesel"><input type="radio" name="fuel" id="diesel" value="diesel">Diesel</label>
+                                      
+                                  </div>
+                                  <div class="options">
+                                      <label for="electric"><input type="radio" name="fuel" id="electric" value="electric">Electric</label>
+                                      
+                                  </div>
+                                  <div class="options">
+                                      <label for="hybrid"><input type="radio" name="fuel" id="hybrid" value="hybrid">Hybrid</label>
+                                      
+                                  </div>
+                              </div>
+                          </div>
+                      </div>
+                      <div class="box">
+                          <button id="search-btn">Search</button>
+                      </div>
+                  </div>
+                </div>
+            </div>
+            <div class="main-page">
+                <section>
+                    <div class="postheader">
+                        <a href="" style="text-decoration: none;color: black;"><h1><i class="fa-solid fa-crown" style="background-color: rgb(253,65,0,1);color:white;padding: 8px;border-radius: 12px;"></i> VIP+</h1></a>
+                    </div>
+                    <div class="posts">
+                        <div class="swipearrow">
+                            <button id="left-arrow"><i class="fa-solid fa-arrow-left" style="color: rgb(0, 0, 62);"></i></button>
+                            <button id="right-arrow"><i class="fa-solid fa-arrow-right" style="color:rgb(0, 0, 62)"></i></button>
+                        </div>
+                        <div class="posteditems">
+                            <div class="posteditemscontainer" id="vipposted">
+                                <div class="swipe" id="car-template" style="display: none;">
+                                    <div class="swipephoto">
+                                        <a href="javascript:void(0)">
+                                            <img src="" alt="" class="imageof">
+                                        </a>
+                                    </div>
+                                    <div class="swipedata">
+                                           <p class="swipelocation"></p>
+                                           <a href="javascript:void(0)">
+                                           <div class="yearname">
+                                               <span class="yearof"> </span>
+                                               <p class="manufacturerof"></p>
+                                               <p class="modelof"></p>
+                                           </div>
+                                           </a>
+                                           <div class="price">
+                                                <p class="priceof"></p>
+                                           </div>
+                                           <div class="fuel">
+                                                <p class="fuelof"></p>
+                                           </div>
+                                    </div>
+                                </div>  
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section>
+                    <div class="postheader">
+                        <a href="" style="text-decoration: none;color: black;"><h1> Newely Added</h1></a>
+                    </div>
+                    <div class="posts">
+                        <div class="swipearrow">
+                           <a href="./list.html" style="text-decoration: underline;color: black;">See All</a>
+                        </div>
+                        <div class="posteditems">
+                            <div class="posteditemscontainer" id="posteditemscont">
+                                <div class="swipe" id="car-template" style="display: none;">
+                                    <div class="swipephoto">
+                                        <a href="javascript:void(0)">
+                                            <img src="" alt="" class="imageof">
+                                        </a>
+                                    </div>
+                                    <div class="swipedata">
+                                           <p class="swipelocation"></p>
+                                           <a href="javascript:void(0)">
+                                           <div class="yearname">
+                                               <span class="yearof"> </span>
+                                               <p class="manufacturerof"></p>
+                                               <p class="modelof"></p>
+                                           </div>
+                                           </a>
+                                           <div class="price">
+                                                <p class="priceof"></p>
+                                           </div>
+                                           <div class="fuel">
+                                                <p class="fuelof"></p>
+                                           </div>
+                                    </div>
+                                </div>  
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>      
+        </div>
+    </div>
+    <footer>
+        <div class="footer-container">
+            <div class="footer-items">
+                <div class="footer-links">
+                    <h3>SITE LINKS</h3>
+                    <div class="footer-ul">
+                    <ul>
+                        <li><a href="">Contact Us</a></li>
+                        <li><a href="">About Us</a></li>
+                        <li><a href="">Directions</a></li>
+                        <li><a href="">Blog</a></li>
+                    </ul>
+                    <ul>
+                        <li><a href="">Promotions</a></li>
+                        <li><a href="">Partners</a></li>
+                        <li><a href="">Careers</a></li>
+                        <li><a href="">FAQs</a></li>
+                    </ul>
+                    <ul>
+                        <li><a href="">Terms and Conditions</a></li>
+                        <li><a href="">Privacy Policy</a></li>
+                        <li><a href="">Enviromental Policy</a></li>
+                        <li><a href="">Media</a></li>
+                    </ul>
+                    </div>
+                </div>
+                <div class="footer-partner">
+                    <div class="partner1">
+                        <img src="./logos/mastercard.svg" alt="">
+                        <img src="./logos/Visa_Inc.-Logo.wine.png" alt="">
+                        <img src="./logos/Toyota-logo.png" alt="">
+                        <img src="./logos/porshe.jpg" alt="">
+                        <img src="./logos/lamborghini.jpg" alt="" style="width: 125px;">
+                        <img src="./logos/copart-logo_brandlogos.net_e6lvm-300x300.png" alt="">
+                        <img src="./logos/viking.jpg" alt="">
+                    </div>
+                    <div class="partner2">
+                        <img src="./logos/copart-logo_brandlogos.net_e6lvm-300x300.png" alt="">
+                        <img src="./logos/lamborghini.jpg" alt="" style="width: 125px;" alt="">
+                        <img src="./logos/viking.jpg" alt="">
+                        <img src="./logos/mastercard.svg" alt="">
+                        <img src="./logos/Visa_Inc.-Logo.wine.png" alt="">
+                        <img src="./logos/porshe.jpg" alt="">
+                        <img src="./logos/Toyota-logo.png" alt="" style="width: 125px;">
+                    </div>                 
+                </div>
+                <div class="footer-social">
+                    <p>This site is protected by reCAPTCHA and the Google <a href="" style="color: #686A73;">Privacy Policy</a>
+                        and <a href="" style="color: #686A73;">Terms of Service</a> apply</p>
+                    <p><sup>© </sup>2024 All rights reserved</p>
+                </div>
+
+            </div>
+        </div>
+    </footer>
+   
+    <div id="carModal" class="modal">
+  <div class="modal-content">
+    <span class="close">&times;</span>
+
+    <div class="modal-left">
+      <img id="mainImage" src="" alt="Main Car" class="main-img">
+      <div id="thumbs" class="thumbnail-row"></div>
+    </div>
+
+    <div class="modal-right">
+      <h2 id="modalTitle"></h2>
+      <p><strong>Year:</strong> <span id="modalYear"></span></p>
+      <p><strong>Fuel Type:</strong> <span id="modalFuel"></span></p>
+      <p><strong>Price:</strong> $<span id="modalPrice"></span></p>
+      <p><strong>Location:</strong> <span id="modalLocation"></span></p>
+    </div>
+  </div>
+</div>
+
+
+
+
+
+
+</body>
+<script src="api.js"></script>
+<script src="./filters.js"></script>
+<script src="indexsearch.js"></script>
+</html>

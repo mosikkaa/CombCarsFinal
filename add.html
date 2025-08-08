@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./res.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"/>
+</head>
+<body>
+        <header>
+        <div class="header-container">
+            <div class="itemscenter">
+                <div class="f-items">
+                    <a href="./index.html"><img src="./logos/logo.png" alt=""></a>
+                    <div class="idinput">
+                        <input type="search" name="q" placeholder="ID,Phone,Search Term..." />
+                        <span><i class="fa-solid fa-magnifying-glass" style="width: 20px; height: 20px;"></i></span>
+                    </div>
+                </div>
+                <div class="l-items">
+                    <button class="postbtn" id="add-car"><span><i class="fa-solid fa-plus" style="border-radius: 50%;padding: 4px;background-color: rgb(253,65,0,1);color: white;"></i>   Add Post</span></button>
+                    <button class="languagebtn" id="choose-language">
+                        <p><i class="fa-solid fa-globe"></i> English <i class="fa-solid fa-chevron-down downarrow"></i></p> 
+                        <div class="chooselanguage">
+                           <div class="options" style="display: flex;justify-content: flex-start;">
+                               <label for="English" id="eng"><input type="radio" id="English" name="language" checked />English</label>
+                           </div>
+                           <div class="options" style="display: flex; justify-content: flex-start;">
+                               <label for="ქართული" id="geo"><input type="radio" id="ქართული" name="language">ქართული</label>
+                           </div>
+                           <div class="options" style="display: flex; justify-content: flex-start;">
+                               <label for="French" id="fren"><input type="radio" id="French" name="language">French</label>
+                           </div>
+                        </div>
+                    </button>
+                    <button class="loginbtn">
+                        <a href="./login.html" style="color: black;text-decoration: none;"><p><i class="fa-solid fa-user"></i>Login</p></a>
+                    </button>
+                    <button class="registerbtn">
+                        <a href="signup.html" style="text-decoration: none;color: black;"><p>Register</p></a>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </header>
+    <nav>
+        <div class="bg-nav">
+            <div class="nav-container">
+                <div class="navitemscenter">
+                    <ul class="navbar">
+                        <li><a href="./index.html">Home</a></li>
+                        <li><a href="list.html">Cars</a></li>
+                        <li><a href="">VIN Check</a></li>
+                        <li><a href="">Dealers</a></li>
+                        <li><a href="">Auctions</a></li>
+                        <li><a href="">Auto Parts</a></li>
+                        <li><a href="">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <div class="main">
+        <div class="main-container">
+            <form action="" id="car-form">
+                <div class="primary">
+                    <div class="form-header">
+                        <p>Primary Information</p>
+                    </div>
+                    <div class="primary-info">
+                        <div class="primary-cont">
+                           <div class="block1">
+                                  <div class="primaries">
+                                    <div class="floating-label">
+                                      <input type="text" id="manufacturer" placeholder=" " required />
+                                      <label for="manufacturer">Manufacturer *</label>
+                                    </div>
+                                  </div>
+                                  <div class="primaries">
+                                    <div class="floating-label">
+                                      <input type="text" id="model" placeholder=" " required />
+                                      <label for="model">Model *</label>
+                                    </div>
+                                  </div>
+                            </div>
+                            <div class="block1">
+                                  <div class="primaries">
+                                    <div class="floating-label">
+                                      <input type="text" id="year" placeholder=" " required />
+                                      <label for="year">Year *</label>
+                                    </div>
+                                  </div>
+                                  <div class="primaries">
+                                    <div class="floating-label">
+                                      <input type="text" id="fuel" placeholder=" " required />
+                                      <label for="fuel">Fuel *</label>
+                                    </div>
+                                  </div>
+                            </div>
+                            <div class="block1">
+                                  <div class="primaries">
+                                    <div class="floating-label">
+                                      <input type="text" id="location" placeholder=" " required />
+                                      <label for="location">Location *</label>
+                                    </div>
+                                  </div>
+                                  <div class="primaries">
+                                    <div class="floating-label">
+                                      <input type="text" id="price" placeholder=" " required />
+                                      <label for="price">Price *</label>
+                                    </div>
+                                  </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="uploadphoto">
+                    <div class="form-header">
+                        <p>Photo</p>
+                    </div>
+                    <div class="uploadphoto-photo">
+                        <div class="photo-uploader">
+                          <label for="photo">Upload Car Photo *</label><br>
+                          <input type="file" id="photo" name="photo" accept="image/*" required>
+                          <img id="preview" src="#" alt="Image Preview" style="display:none; margin-top: 10px; max-width: 200px;"/>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact">
+                    <div class="form-header">
+                        <p>Informaton and Contact</p>
+                    </div>
+                    <div class="contact-info">
+                        <div class="descriptioncontact">
+                          <textarea id="description" name="description" placeholder="description"></textarea>
+                        </div>
+                        <div class="contactinfo">
+                            <div class="floating-label">
+                                  <input type="tel" id="contact" placeholder=" " required pattern="[0-9]{9,15}"/>
+                                  <label for="contact">Contact *</label>
+                            </div>
+                        </div>
+                        <button type="submit" id="add-post">Submit</button>
+                    </div>
+                </div>
+            </form>
+         </div>
+    </div>
+
+    <div class="main">
+
+    </div>
+
+    <footer>
+        <div class="footer-container">
+            <div class="footer-items">
+                <div class="footer-links">
+                    <h3>SITE LINKS</h3>
+                    <div class="footer-ul">
+                    <ul>
+                        <li><a href="">Contact Us</a></li>
+                        <li><a href="">About Us</a></li>
+                        <li><a href="">Directions</a></li>
+                        <li><a href="">Blog</a></li>
+                    </ul>
+                    <ul>
+                        <li><a href="">Promotions</a></li>
+                        <li><a href="">Partners</a></li>
+                        <li><a href="">Careers</a></li>
+                        <li><a href="">FAQs</a></li>
+                    </ul>
+                    <ul>
+                        <li><a href="">Terms and Conditions</a></li>
+                        <li><a href="">Privacy Policy</a></li>
+                        <li><a href="">Enviromental Policy</a></li>
+                        <li><a href="">Media</a></li>
+                    </ul>
+                    </div>
+                </div>
+                <div class="footer-partner">
+                    <div class="partner1">
+                        <img src="./logos/mastercard.svg" alt="">
+                        <img src="./logos/Visa_Inc.-Logo.wine.png" alt="">
+                        <img src="./logos/Toyota-logo.png" alt="">
+                        <img src="./logos/porshe.jpg" alt="">
+                        <img src="./logos/lamborghini.jpg" alt="" style="width: 125px;">
+                        <img src="./logos/copart-logo_brandlogos.net_e6lvm-300x300.png" alt="">
+                        <img src="./logos/viking.jpg" alt="">
+                    </div>
+                    <div class="partner2">
+                        <img src="./logos/copart-logo_brandlogos.net_e6lvm-300x300.png" alt="">
+                        <img src="./logos/lamborghini.jpg" alt="" style="width: 125px;" alt="">
+                        <img src="./logos/viking.jpg" alt="">
+                        <img src="./logos/mastercard.svg" alt="">
+                        <img src="./logos/Visa_Inc.-Logo.wine.png" alt="">
+                        <img src="./logos/porshe.jpg" alt="">
+                        <img src="./logos/Toyota-logo.png" alt="" style="width: 125px;">
+                    </div>                 
+                </div>
+                <div class="footer-social">
+                    <p>This site is protected by reCAPTCHA and the Google <a href="" style="color: #686A73;">Privacy Policy</a>
+                        and <a href="" style="color: #686A73;">Terms of Service</a> apply</p>
+                    <p><sup>© </sup>2024 All rights reserved</p>
+                </div>
+
+            </div>
+        </div>
+    </footer>
+
+    <script src="add.js"></script>
+    
+</body>
+</html>

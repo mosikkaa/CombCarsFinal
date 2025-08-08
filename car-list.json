@@ -1,0 +1,1322 @@
+[
+  {
+    "manufacturer": "Mercedes",
+    "model": "EQS",
+    "year": 2023,
+    "price": 98000,
+    "fuel_type": "Electric",
+    "location": "Rustavi"
+  },
+  {
+    "manufacturer": "Audi",
+    "model": "A4",
+    "year": 2020,
+    "price": 39000,
+    "fuel_type": "Gasoline",
+    "location": "Tbilisi"
+  },
+  {
+    "manufacturer": "Audi",
+    "model": "e-tron GT",
+    "year": 2023,
+    "price": 102000,
+    "fuel_type": "Electric",
+    "location": "Batumi"
+  },
+  {
+    "manufacturer": "Toyota",
+    "model": "RAV4",
+    "year": 2023,
+    "price": 30000,
+    "fuel_type": "Hybrid",
+    "location": "Kutaisi"
+  },
+  {
+    "manufacturer": "Toyota",
+    "model": "Highlander",
+    "year": 2021,
+    "price": 37000,
+    "fuel_type": "Gasoline",
+    "location": "Rustavi"
+  },
+  {
+    "manufacturer": "Toyota",
+    "model": "Prius",
+    "year": 2022,
+    "price": 27000,
+    "fuel_type": "Hybrid",
+    "location": "Tbilisi"
+  },
+  {
+    "manufacturer": "Ford",
+    "model": "Escape",
+    "year": 2021,
+    "price": 28000,
+    "fuel_type": "Gasoline",
+    "location": "Kutaisi"
+  },
+  {
+    "manufacturer": "Ford",
+    "model": "Explorer",
+    "year": 2023,
+    "price": 41000,
+    "fuel_type": "Hybrid",
+    "location": "Batumi"
+  },
+  {
+    "manufacturer": "Ford",
+    "model": "Mach-E",
+    "year": 2022,
+    "price": 53000,
+    "fuel_type": "Electric",
+    "location": "Rustavi"
+  },
+  {
+    "manufacturer": "BMW",
+    "model": "X5",
+    "year": 2022,
+    "price": 61000,
+    "fuel_type": "Gasoline",
+    "location": "Kutaisi"
+  },
+  {
+    "manufacturer": "BMW",
+    "model": "iX",
+    "year": 2023,
+    "price": 87000,
+    "fuel_type": "Electric",
+    "location": "Tbilisi"
+  },
+  {
+    "manufacturer": "BMW",
+    "model": "M3",
+    "year": 2021,
+    "price": 71000,
+    "fuel_type": "Gasoline",
+    "location": "Batumi"
+  },
+  {
+    "manufacturer": "Mercedes",
+    "model": "GLA",
+    "year": 2022,
+    "price": 40000,
+    "fuel_type": "Gasoline",
+    "location": "Rustavi"
+  },
+  {
+    "manufacturer": "Mercedes",
+    "model": "GLE",
+    "year": 2023,
+    "price": 68000,
+    "fuel_type": "Diesel",
+    "location": "Tbilisi"
+  },
+  {
+    "manufacturer": "Mercedes",
+    "model": "EQB",
+    "year": 2023,
+    "price": 58000,
+    "fuel_type": "Electric",
+    "location": "Kutaisi"
+  },
+  {
+    "manufacturer": "Toyota",
+    "model": "Corolla",
+    "year": 2024,
+    "price": 15382,
+    "fuel_type": "Petrol",
+    "location": "Tbilisi"
+  },
+  {
+    "manufacturer": "Mercedes",
+    "model": "EQB",
+    "year": 2024,
+    "price": 69417,
+    "fuel_type": "Hybrid",
+    "location": "Kutaisi"
+  },
+  {
+    "manufacturer": "BMW",
+    "model": "X3",
+    "year": 2015,
+    "price": 31633,
+    "fuel_type": "Electric",
+    "location": "Batumi"
+  },
+  {
+    "manufacturer": "Toyota",
+    "model": "Camry",
+    "year": 2020,
+    "price": 20207,
+    "fuel_type": "Petrol",
+    "location": "Rustavi"
+  },
+  {
+    "manufacturer": "Ford",
+    "model": "Mustang",
+    "year": 2019,
+    "price": 23300,
+    "fuel_type": "Electric",
+    "location": "Kutaisi"
+  },
+  {
+    "manufacturer": "Mercedes",
+    "model": "A-Class",
+    "year": 2020,
+    "price": 62992,
+    "fuel_type": "Petrol",
+    "location": "Batumi"
+  },
+  {
+    "manufacturer": "BMW",
+    "model": "M3",
+    "year": 2024,
+    "price": 76878,
+    "fuel_type": "Hybrid",
+    "location": "Tbilisi"
+  },
+  {
+    "manufacturer": "Toyota",
+    "model": "RAV4",
+    "year": 2023,
+    "price": 54942,
+    "fuel_type": "Hybrid",
+    "location": "Tbilisi"
+  },
+  {
+    "manufacturer": "Mercedes",
+    "model": "EQB",
+    "year": 2022,
+    "price": 43484,
+    "fuel_type": "Petrol",
+    "location": "Kutaisi"
+  },
+  {
+    "manufacturer": "Ford",
+    "model": "Mustang",
+    "year": 2020,
+    "price": 61104,
+    "fuel_type": "Electric",
+    "location": "Batumi"
+  },
+  {
+    "manufacturer": "Mercedes",
+    "model": "EQB",
+    "year": 2019,
+    "price": 84598,
+    "fuel_type": "Electric",
+    "location": "Rustavi"
+  },
+  {
+    "manufacturer": "BMW",
+    "model": "330i",
+    "year": 2019,
+    "price": 72740,
+    "fuel_type": "Hybrid",
+    "location": "Zugdidi"
+  },
+  {
+    "manufacturer": "Audi",
+    "model": "A6",
+    "year": 2019,
+    "price": 36007,
+    "fuel_type": "Diesel",
+    "location": "Kutaisi"
+  },
+  {
+    "manufacturer": "Ford",
+    "model": "Escape",
+    "year": 2022,
+    "price": 87794,
+    "fuel_type": "Diesel",
+    "location": "Rustavi"
+  },
+  {
+    "manufacturer": "Audi",
+    "model": "RS5",
+    "year": 2023,
+    "price": 60626,
+    "fuel_type": "Diesel",
+    "location": "Zugdidi"
+  },
+  {
+    "manufacturer": "BMW",
+    "model": "330i",
+    "year": 2021,
+    "price": 31401,
+    "fuel_type": "Electric",
+    "location": "Zugdidi"
+  },
+  {
+    "manufacturer": "Mercedes",
+    "model": "EQS",
+    "year": 2016,
+    "price": 66688,
+    "fuel_type": "Electric",
+    "location": "Batumi"
+  },
+  {
+    "manufacturer": "Toyota",
+    "model": "RAV4",
+    "year": 2017,
+    "price": 37112,
+    "fuel_type": "Petrol",
+    "location": "Rustavi"
+  },
+  {
+    "manufacturer": "Audi",
+    "model": "A6",
+    "year": 2016,
+    "price": 27601,
+    "fuel_type": "Diesel",
+    "location": "Zugdidi"
+  },
+  {
+    "manufacturer": "Toyota",
+    "model": "RAV4",
+    "year": 2017,
+    "price": 58719,
+    "fuel_type": "Diesel",
+    "location": "Tbilisi"
+  },
+  {
+    "manufacturer": "Mercedes",
+    "model": "C-Class",
+    "year": 2024,
+    "price": 20095,
+    "fuel_type": "Electric",
+    "location": "Batumi"
+  },
+  {
+    "manufacturer": "Audi",
+    "model": "A6",
+    "year": 2016,
+    "price": 58664,
+    "fuel_type": "Diesel",
+    "location": "Batumi"
+  },
+  {
+    "manufacturer": "Audi",
+    "model": "e-tron",
+    "year": 2024,
+    "price": 53147,
+    "fuel_type": "Diesel",
+    "location": "Zugdidi"
+  },
+  {
+    "manufacturer": "BMW",
+    "model": "330i",
+    "year": 2022,
+    "price": 47539,
+    "fuel_type": "Hybrid",
+    "location": "Tbilisi"
+  },
+  {
+    "manufacturer": "Audi",
+    "model": "RS5",
+    "year": 2024,
+    "price": 61993,
+    "fuel_type": "Electric",
+    "location": "Kutaisi"
+  },
+  {
+    "manufacturer": "Audi",
+    "model": "RS5",
+    "year": 2018,
+    "price": 31623,
+    "fuel_type": "Electric",
+    "location": "Rustavi"
+  },
+  {
+    "manufacturer": "Toyota",
+    "model": "Corolla",
+    "year": 2021,
+    "price": 36313,
+    "fuel_type": "Diesel",
+    "location": "Zugdidi"
+  },
+  {
+    "manufacturer": "Ford",
+    "model": "Explorer",
+    "year": 2022,
+    "price": 52350,
+    "fuel_type": "Petrol",
+    "location": "Rustavi"
+  },
+  {
+    "manufacturer": "BMW",
+    "model": "X5",
+    "year": 2017,
+    "price": 69232,
+    "fuel_type": "Diesel",
+    "location": "Kutaisi"
+  },
+  {
+    "manufacturer": "Mercedes",
+    "model": "A-Class",
+    "year": 2017,
+    "price": 43831,
+    "fuel_type": "Hybrid",
+    "location": "Rustavi"
+  },
+  {
+    "manufacturer": "Audi",
+    "model": "Q7",
+    "year": 2022,
+    "price": 70808,
+    "fuel_type": "Electric",
+    "location": "Batumi"
+  },
+  {
+    "manufacturer": "Toyota",
+    "model": "Prius",
+    "year": 2015,
+    "price": 46172,
+    "fuel_type": "Electric",
+    "location": "Rustavi"
+  },
+  {
+    "manufacturer": "Toyota",
+    "model": "Camry",
+    "year": 2020,
+    "price": 24365,
+    "fuel_type": "Petrol",
+    "location": "Tbilisi"
+  },
+  {
+    "manufacturer": "BMW",
+    "model": "i4",
+    "year": 2024,
+    "price": 70330,
+    "fuel_type": "Electric",
+    "location": "Batumi"
+  },
+  {
+    "manufacturer": "BMW",
+    "model": "X3",
+    "year": 2024,
+    "price": 29838,
+    "fuel_type": "Diesel",
+    "location": "Kutaisi"
+  },
+  {
+    "manufacturer": "Toyota",
+    "model": "Corolla",
+    "year": 2020,
+    "price": 64949,
+    "fuel_type": "Petrol",
+    "location": "Batumi"
+  },
+  {
+    "manufacturer": "Audi",
+    "model": "A6",
+    "year": 2022,
+    "price": 58468,
+    "fuel_type": "Diesel",
+    "location": "Rustavi"
+  },
+  {
+    "manufacturer": "Toyota",
+    "model": "Highlander",
+    "year": 2020,
+    "price": 20238,
+    "fuel_type": "Hybrid",
+    "location": "Rustavi"
+  },
+  {
+    "manufacturer": "Toyota",
+    "model": "Highlander",
+    "year": 2022,
+    "price": 85560,
+    "fuel_type": "Diesel",
+    "location": "Tbilisi"
+  },
+  {
+    "manufacturer": "BMW",
+    "model": "X3",
+    "year": 2015,
+    "price": 81049,
+    "fuel_type": "Hybrid",
+    "location": "Batumi"
+  },
+  {
+    "manufacturer": "Audi",
+    "model": "e-tron",
+    "year": 2021,
+    "price": 31014,
+    "fuel_type": "Diesel",
+    "location": "Zugdidi"
+  },
+  {
+    "manufacturer": "Toyota",
+    "model": "Highlander",
+    "year": 2024,
+    "price": 54408,
+    "fuel_type": "Diesel",
+    "location": "Batumi"
+  },
+  {
+    "manufacturer": "Toyota",
+    "model": "Prius",
+    "year": 2021,
+    "price": 34936,
+    "fuel_type": "Diesel",
+    "location": "Kutaisi"
+  },
+  {
+    "manufacturer": "Audi",
+    "model": "Q7",
+    "year": 2024,
+    "price": 80048,
+    "fuel_type": "Petrol",
+    "location": "Batumi"
+  },
+  {
+    "manufacturer": "Mercedes",
+    "model": "EQS",
+    "year": 2021,
+    "price": 82709,
+    "fuel_type": "Petrol",
+    "location": "Rustavi"
+  },
+  {
+    "manufacturer": "Mercedes",
+    "model": "C-Class",
+    "year": 2022,
+    "price": 51421,
+    "fuel_type": "Electric",
+    "location": "Batumi"
+  },
+  {
+    "manufacturer": "Toyota",
+    "model": "Prius",
+    "year": 2019,
+    "price": 57404,
+    "fuel_type": "Hybrid",
+    "location": "Tbilisi"
+  },
+  {
+    "manufacturer": "Toyota",
+    "model": "Highlander",
+    "year": 2017,
+    "price": 80619,
+    "fuel_type": "Petrol",
+    "location": "Zugdidi"
+  },
+  {
+    "manufacturer": "Audi",
+    "model": "RS5",
+    "year": 2019,
+    "price": 30166,
+    "fuel_type": "Hybrid",
+    "location": "Zugdidi"
+  },
+  {
+    "manufacturer": "Ford",
+    "model": "Explorer",
+    "year": 2016,
+    "price": 10465,
+    "fuel_type": "Hybrid",
+    "location": "Kutaisi"
+  },
+  {
+    "manufacturer": "Audi",
+    "model": "e-tron",
+    "year": 2021,
+    "price": 25997,
+    "fuel_type": "Diesel",
+    "location": "Zugdidi"
+  },
+  {
+    "manufacturer": "Toyota",
+    "model": "Prius",
+    "year": 2023,
+    "price": 12738,
+    "fuel_type": "Petrol",
+    "location": "Kutaisi"
+  },
+  {
+    "manufacturer": "BMW",
+    "model": "330i",
+    "year": 2023,
+    "price": 27636,
+    "fuel_type": "Petrol",
+    "location": "Rustavi"
+  },
+  {
+    "manufacturer": "Ford",
+    "model": "Explorer",
+    "year": 2021,
+    "price": 52846,
+    "fuel_type": "Electric",
+    "location": "Batumi"
+  },
+  {
+    "manufacturer": "Ford",
+    "model": "Escape",
+    "year": 2016,
+    "price": 69591,
+    "fuel_type": "Petrol",
+    "location": "Rustavi"
+  },
+  {
+    "manufacturer": "BMW",
+    "model": "i4",
+    "year": 2023,
+    "price": 66976,
+    "fuel_type": "Petrol",
+    "location": "Kutaisi"
+  },
+  {
+    "manufacturer": "Audi",
+    "model": "e-tron",
+    "year": 2015,
+    "price": 11085,
+    "fuel_type": "Diesel",
+    "location": "Batumi"
+  },
+  {
+    "manufacturer": "Audi",
+    "model": "e-tron",
+    "year": 2019,
+    "price": 80540,
+    "fuel_type": "Petrol",
+    "location": "Kutaisi"
+  },
+  {
+    "manufacturer": "Audi",
+    "model": "A6",
+    "year": 2015,
+    "price": 44138,
+    "fuel_type": "Diesel",
+    "location": "Kutaisi"
+  },
+  {
+    "manufacturer": "BMW",
+    "model": "i4",
+    "year": 2023,
+    "price": 89827,
+    "fuel_type": "Hybrid",
+    "location": "Batumi"
+  },
+  {
+    "manufacturer": "Mercedes",
+    "model": "EQB",
+    "year": 2023,
+    "price": 44105,
+    "fuel_type": "Petrol",
+    "location": "Tbilisi"
+  },
+  {
+    "manufacturer": "Ford",
+    "model": "F-150",
+    "year": 2019,
+    "price": 15652,
+    "fuel_type": "Electric",
+    "location": "Zugdidi"
+  },
+  {
+    "manufacturer": "Toyota",
+    "model": "Highlander",
+    "year": 2022,
+    "price": 54808,
+    "fuel_type": "Electric",
+    "location": "Batumi"
+  },
+  {
+    "manufacturer": "Ford",
+    "model": "Explorer",
+    "year": 2020,
+    "price": 78020,
+    "fuel_type": "Diesel",
+    "location": "Rustavi"
+  },
+  {
+    "manufacturer": "Audi",
+    "model": "Q7",
+    "year": 2020,
+    "price": 11616,
+    "fuel_type": "Petrol",
+    "location": "Rustavi"
+  },
+  {
+    "manufacturer": "Mercedes",
+    "model": "EQS",
+    "year": 2023,
+    "price": 58753,
+    "fuel_type": "Petrol",
+    "location": "Tbilisi"
+  },
+  {
+    "manufacturer": "Mercedes",
+    "model": "GLC",
+    "year": 2021,
+    "price": 39617,
+    "fuel_type": "Hybrid",
+    "location": "Tbilisi"
+  },
+  {
+    "manufacturer": "Audi",
+    "model": "Q7",
+    "year": 2017,
+    "price": 71004,
+    "fuel_type": "Hybrid",
+    "location": "Tbilisi"
+  },
+  {
+    "manufacturer": "Mercedes",
+    "model": "C-Class",
+    "year": 2016,
+    "price": 82857,
+    "fuel_type": "Hybrid",
+    "location": "Kutaisi"
+  },
+  {
+    "manufacturer": "Mercedes",
+    "model": "EQB",
+    "year": 2019,
+    "price": 56794,
+    "fuel_type": "Hybrid",
+    "location": "Rustavi"
+  },
+  {
+    "manufacturer": "Mercedes",
+    "model": "A-Class",
+    "year": 2024,
+    "price": 72236,
+    "fuel_type": "Diesel",
+    "location": "Tbilisi"
+  },
+  {
+    "manufacturer": "Audi",
+    "model": "A6",
+    "year": 2020,
+    "price": 40519,
+    "fuel_type": "Diesel",
+    "location": "Kutaisi"
+  },
+  {
+    "manufacturer": "Toyota",
+    "model": "RAV4",
+    "year": 2017,
+    "price": 86018,
+    "fuel_type": "Petrol",
+    "location": "Kutaisi"
+  },
+  {
+    "manufacturer": "Toyota",
+    "model": "Prius",
+    "year": 2023,
+    "price": 65330,
+    "fuel_type": "Electric",
+    "location": "Tbilisi"
+  },
+  {
+    "manufacturer": "Toyota",
+    "model": "RAV4",
+    "year": 2015,
+    "price": 56909,
+    "fuel_type": "Diesel",
+    "location": "Zugdidi"
+  },
+  {
+    "manufacturer": "Mercedes",
+    "model": "C-Class",
+    "year": 2020,
+    "price": 77705,
+    "fuel_type": "Hybrid",
+    "location": "Zugdidi"
+  },
+  {
+    "manufacturer": "Ford",
+    "model": "Explorer",
+    "year": 2020,
+    "price": 13630,
+    "fuel_type": "Electric",
+    "location": "Batumi"
+  },
+  {
+    "manufacturer": "Ford",
+    "model": "F-150",
+    "year": 2020,
+    "price": 11343,
+    "fuel_type": "Petrol",
+    "location": "Batumi"
+  },
+  {
+    "manufacturer": "BMW",
+    "model": "X3",
+    "year": 2017,
+    "price": 61530,
+    "fuel_type": "Petrol",
+    "location": "Rustavi"
+  },
+  {
+    "manufacturer": "Audi",
+    "model": "A6",
+    "year": 2019,
+    "price": 89477,
+    "fuel_type": "Hybrid",
+    "location": "Kutaisi"
+  },
+  {
+    "manufacturer": "Ford",
+    "model": "F-150",
+    "year": 2016,
+    "price": 28983,
+    "fuel_type": "Petrol",
+    "location": "Rustavi"
+  },
+  {
+    "manufacturer": "Audi",
+    "model": "A6",
+    "year": 2020,
+    "price": 15276,
+    "fuel_type": "Electric",
+    "location": "Zugdidi"
+  },
+  {
+    "manufacturer": "Mercedes",
+    "model": "EQS",
+    "year": 2023,
+    "price": 58599,
+    "fuel_type": "Diesel",
+    "location": "Batumi"
+  },
+  {
+    "manufacturer": "BMW",
+    "model": "i4",
+    "year": 2017,
+    "price": 80234,
+    "fuel_type": "Hybrid",
+    "location": "Zugdidi"
+  },
+  {
+    "manufacturer": "Ford",
+    "model": "Mustang",
+    "year": 2016,
+    "price": 50103,
+    "fuel_type": "Electric",
+    "location": "Tbilisi"
+  },
+  {
+    "manufacturer": "Audi",
+    "model": "Q7",
+    "year": 2021,
+    "price": 76121,
+    "fuel_type": "Diesel",
+    "location": "Batumi"
+  },
+  {
+    "manufacturer": "Audi",
+    "model": "e-tron",
+    "year": 2015,
+    "price": 38446,
+    "fuel_type": "Petrol",
+    "location": "Kutaisi"
+  },
+  {
+    "manufacturer": "Audi",
+    "model": "A6",
+    "year": 2019,
+    "price": 35808,
+    "fuel_type": "Hybrid",
+    "location": "Zugdidi"
+  },
+  {
+    "manufacturer": "Mercedes",
+    "model": "EQB",
+    "year": 2024,
+    "price": 75939,
+    "fuel_type": "Hybrid",
+    "location": "Rustavi"
+  },
+  {
+    "manufacturer": "BMW",
+    "model": "X3",
+    "year": 2019,
+    "price": 41395,
+    "fuel_type": "Hybrid",
+    "location": "Rustavi"
+  },
+  {
+    "manufacturer": "Audi",
+    "model": "Q7",
+    "year": 2015,
+    "price": 64797,
+    "fuel_type": "Hybrid",
+    "location": "Rustavi"
+  },
+  {
+    "manufacturer": "Toyota",
+    "model": "Highlander",
+    "year": 2020,
+    "price": 66681,
+    "fuel_type": "Diesel",
+    "location": "Tbilisi"
+  },
+  {
+    "manufacturer": "Ford",
+    "model": "F-150",
+    "year": 2021,
+    "price": 37245,
+    "fuel_type": "Diesel",
+    "location": "Rustavi"
+  },
+  {
+    "manufacturer": "Toyota",
+    "model": "RAV4",
+    "year": 2015,
+    "price": 18918,
+    "fuel_type": "Petrol",
+    "location": "Rustavi"
+  },
+  {
+    "manufacturer": "BMW",
+    "model": "330i",
+    "year": 2017,
+    "price": 74374,
+    "fuel_type": "Hybrid",
+    "location": "Batumi"
+  },
+  {
+    "manufacturer": "Toyota",
+    "model": "Camry",
+    "year": 2015,
+    "price": 59065,
+    "fuel_type": "Diesel",
+    "location": "Kutaisi"
+  },
+  {
+    "manufacturer": "Audi",
+    "model": "A6",
+    "year": 2017,
+    "price": 62853,
+    "fuel_type": "Electric",
+    "location": "Zugdidi"
+  },
+  {
+    "manufacturer": "Ford",
+    "model": "Mustang",
+    "year": 2021,
+    "price": 87647,
+    "fuel_type": "Diesel",
+    "location": "Tbilisi"
+  },
+  {
+    "manufacturer": "BMW",
+    "model": "i4",
+    "year": 2024,
+    "price": 26334,
+    "fuel_type": "Diesel",
+    "location": "Tbilisi"
+  },
+  {
+    "manufacturer": "Mercedes",
+    "model": "C-Class",
+    "year": 2018,
+    "price": 48860,
+    "fuel_type": "Electric",
+    "location": "Zugdidi"
+  },
+  {
+    "manufacturer": "Mercedes",
+    "model": "GLC",
+    "year": 2020,
+    "price": 49672,
+    "fuel_type": "Diesel",
+    "location": "Batumi"
+  },
+  {
+    "manufacturer": "Audi",
+    "model": "A6",
+    "year": 2019,
+    "price": 23772,
+    "fuel_type": "Petrol",
+    "location": "Batumi"
+  },
+  {
+    "manufacturer": "Audi",
+    "model": "RS5",
+    "year": 2021,
+    "price": 41225,
+    "fuel_type": "Petrol",
+    "location": "Zugdidi"
+  },
+  {
+    "manufacturer": "Mercedes",
+    "model": "C-Class",
+    "year": 2017,
+    "price": 81340,
+    "fuel_type": "Diesel",
+    "location": "Kutaisi"
+  },
+  {
+    "manufacturer": "Toyota",
+    "model": "Prius",
+    "year": 2015,
+    "price": 55996,
+    "fuel_type": "Electric",
+    "location": "Rustavi"
+  },
+  {
+    "manufacturer": "Toyota",
+    "model": "Highlander",
+    "year": 2017,
+    "price": 17508,
+    "fuel_type": "Electric",
+    "location": "Zugdidi"
+  },
+  {
+    "manufacturer": "Mercedes",
+    "model": "C-Class",
+    "year": 2019,
+    "price": 64655,
+    "fuel_type": "Petrol",
+    "location": "Tbilisi"
+  },
+  {
+    "manufacturer": "BMW",
+    "model": "330i",
+    "year": 2022,
+    "price": 69017,
+    "fuel_type": "Electric",
+    "location": "Rustavi"
+  },
+  {
+    "manufacturer": "BMW",
+    "model": "X5",
+    "year": 2024,
+    "price": 85655,
+    "fuel_type": "Hybrid",
+    "location": "Batumi"
+  },
+  {
+    "manufacturer": "Mercedes",
+    "model": "C-Class",
+    "year": 2023,
+    "price": 36199,
+    "fuel_type": "Electric",
+    "location": "Tbilisi"
+  },
+  {
+    "manufacturer": "Toyota",
+    "model": "Highlander",
+    "year": 2021,
+    "price": 47178,
+    "fuel_type": "Petrol",
+    "location": "Tbilisi"
+  },
+  {
+    "manufacturer": "Ford",
+    "model": "Escape",
+    "year": 2023,
+    "price": 24353,
+    "fuel_type": "Petrol",
+    "location": "Zugdidi"
+  },
+  {
+    "manufacturer": "Ford",
+    "model": "Focus",
+    "year": 2019,
+    "price": 58737,
+    "fuel_type": "Hybrid",
+    "location": "Kutaisi"
+  },
+  {
+    "manufacturer": "Mercedes",
+    "model": "EQB",
+    "year": 2024,
+    "price": 51291,
+    "fuel_type": "Diesel",
+    "location": "Tbilisi"
+  },
+  {
+    "manufacturer": "Mercedes",
+    "model": "EQS",
+    "year": 2017,
+    "price": 58169,
+    "fuel_type": "Electric",
+    "location": "Tbilisi"
+  },
+  {
+    "manufacturer": "Toyota",
+    "model": "Highlander",
+    "year": 2018,
+    "price": 43214,
+    "fuel_type": "Electric",
+    "location": "Kutaisi"
+  },
+  {
+    "manufacturer": "Mercedes",
+    "model": "A-Class",
+    "year": 2020,
+    "price": 62976,
+    "fuel_type": "Hybrid",
+    "location": "Zugdidi"
+  },
+  {
+    "manufacturer": "Audi",
+    "model": "RS5",
+    "year": 2016,
+    "price": 27485,
+    "fuel_type": "Petrol",
+    "location": "Kutaisi"
+  },
+  {
+    "manufacturer": "Mercedes",
+    "model": "C-Class",
+    "year": 2017,
+    "price": 33586,
+    "fuel_type": "Hybrid",
+    "location": "Batumi"
+  },
+  {
+    "manufacturer": "Ford",
+    "model": "Mustang",
+    "year": 2016,
+    "price": 33742,
+    "fuel_type": "Hybrid",
+    "location": "Tbilisi"
+  },
+  {
+    "manufacturer": "Mercedes",
+    "model": "C-Class",
+    "year": 2022,
+    "price": 11221,
+    "fuel_type": "Hybrid",
+    "location": "Zugdidi"
+  },
+  {
+    "manufacturer": "Audi",
+    "model": "A6",
+    "year": 2019,
+    "price": 74185,
+    "fuel_type": "Electric",
+    "location": "Tbilisi"
+  },
+  {
+    "manufacturer": "Audi",
+    "model": "e-tron",
+    "year": 2018,
+    "price": 49122,
+    "fuel_type": "Electric",
+    "location": "Tbilisi"
+  },
+  {
+    "manufacturer": "Audi",
+    "model": "A4",
+    "year": 2017,
+    "price": 31719,
+    "fuel_type": "Petrol",
+    "location": "Tbilisi"
+  },
+  {
+    "manufacturer": "Mercedes",
+    "model": "C-Class",
+    "year": 2019,
+    "price": 60823,
+    "fuel_type": "Diesel",
+    "location": "Zugdidi"
+  },
+  {
+    "manufacturer": "Audi",
+    "model": "Q7",
+    "year": 2019,
+    "price": 9736,
+    "fuel_type": "Diesel",
+    "location": "Tbilisi"
+  },
+  {
+    "manufacturer": "Ford",
+    "model": "F-150",
+    "year": 2018,
+    "price": 15883,
+    "fuel_type": "Hybrid",
+    "location": "Tbilisi"
+  },
+  {
+    "manufacturer": "Toyota",
+    "model": "Prius",
+    "year": 2024,
+    "price": 38971,
+    "fuel_type": "Hybrid",
+    "location": "Zugdidi"
+  },
+  {
+    "manufacturer": "Mercedes",
+    "model": "A-Class",
+    "year": 2020,
+    "price": 44750,
+    "fuel_type": "Petrol",
+    "location": "Kutaisi"
+  },
+  {
+    "manufacturer": "Mercedes",
+    "model": "EQB",
+    "year": 2016,
+    "price": 50561,
+    "fuel_type": "Hybrid",
+    "location": "Kutaisi"
+  },
+  {
+    "manufacturer": "BMW",
+    "model": "i4",
+    "year": 2017,
+    "price": 13846,
+    "fuel_type": "Electric",
+    "location": "Batumi"
+  },
+  {
+    "manufacturer": "Ford",
+    "model": "F-150",
+    "year": 2024,
+    "price": 34167,
+    "fuel_type": "Hybrid",
+    "location": "Kutaisi"
+  },
+  {
+    "manufacturer": "Ford",
+    "model": "Mustang",
+    "year": 2022,
+    "price": 53170,
+    "fuel_type": "Petrol",
+    "location": "Batumi"
+  },
+  {
+    "manufacturer": "Audi",
+    "model": "A6",
+    "year": 2017,
+    "price": 29704,
+    "fuel_type": "Electric",
+    "location": "Rustavi"
+  },
+  {
+    "manufacturer": "Audi",
+    "model": "RS5",
+    "year": 2018,
+    "price": 26988,
+    "fuel_type": "Hybrid",
+    "location": "Batumi"
+  },
+  {
+    "manufacturer": "BMW",
+    "model": "X5",
+    "year": 2019,
+    "price": 15025,
+    "fuel_type": "Petrol",
+    "location": "Rustavi"
+  },
+  {
+    "manufacturer": "BMW",
+    "model": "X5",
+    "year": 2019,
+    "price": 15768,
+    "fuel_type": "Diesel",
+    "location": "Batumi"
+  },
+  {
+    "manufacturer": "Toyota",
+    "model": "Camry",
+    "year": 2016,
+    "price": 30865,
+    "fuel_type": "Electric",
+    "location": "Tbilisi"
+  },
+  {
+    "manufacturer": "Toyota",
+    "model": "RAV4",
+    "year": 2016,
+    "price": 66036,
+    "fuel_type": "Diesel",
+    "location": "Batumi"
+  },
+  {
+    "manufacturer": "Ford",
+    "model": "Mustang",
+    "year": 2020,
+    "price": 65888,
+    "fuel_type": "Diesel",
+    "location": "Kutaisi"
+  },
+  {
+    "manufacturer": "BMW",
+    "model": "i4",
+    "year": 2019,
+    "price": 57608,
+    "fuel_type": "Diesel",
+    "location": "Batumi"
+  },
+  {
+    "manufacturer": "Audi",
+    "model": "A4",
+    "year": 2018,
+    "price": 67706,
+    "fuel_type": "Diesel",
+    "location": "Kutaisi"
+  },
+  {
+    "manufacturer": "Toyota",
+    "model": "Prius",
+    "year": 2017,
+    "price": 80564,
+    "fuel_type": "Electric",
+    "location": "Rustavi"
+  },
+  {
+    "manufacturer": "Toyota",
+    "model": "Corolla",
+    "year": 2023,
+    "price": 81588,
+    "fuel_type": "Hybrid",
+    "location": "Batumi"
+  },
+  {
+    "manufacturer": "Ford",
+    "model": "Focus",
+    "year": 2022,
+    "price": 41449,
+    "fuel_type": "Electric",
+    "location": "Rustavi"
+  },
+  {
+    "manufacturer": "BMW",
+    "model": "M3",
+    "year": 2024,
+    "price": 77022,
+    "fuel_type": "Diesel",
+    "location": "Kutaisi"
+  },
+  {
+    "manufacturer": "Mercedes",
+    "model": "EQS",
+    "year": 2018,
+    "price": 23340,
+    "fuel_type": "Hybrid",
+    "location": "Batumi"
+  },
+  {
+    "manufacturer": "Mercedes",
+    "model": "EQS",
+    "year": 2018,
+    "price": 22557,
+    "fuel_type": "Diesel",
+    "location": "Kutaisi"
+  },
+  {
+    "manufacturer": "Ford",
+    "model": "Mustang",
+    "year": 2021,
+    "price": 30135,
+    "fuel_type": "Electric",
+    "location": "Batumi"
+  },
+  {
+    "manufacturer": "Audi",
+    "model": "e-tron",
+    "year": 2020,
+    "price": 78266,
+    "fuel_type": "Hybrid",
+    "location": "Kutaisi"
+  }
+]
